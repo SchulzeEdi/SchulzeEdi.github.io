@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <table style="border: 0.5px solid black;">
+    <table style="border: 0.5px solid black; width: 100%;">
         <tr>
             <th style="background-color: black; color: white;" colspan="3">
                 Catálogo de Produtos - Desenvolvimento WEB I
