@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    width: 100%;
+    background-color: red;
+    border: 3px solid blue;
+  }
+  
+  th, td {
+    border: 1px solid blue;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: yellow;
+  }
+  
+  td {
+    background-color: white;
+  }
+
+  .yellow-05 {
+    background-color: yellow;
+  }
+
+  .orange-05 {
+    background-color: orange;
+  }
+
+  .blue-05 {
+    background-color: blue;
+  }
+
+  .red-05 {
+    background-color: red;
+  }
+
+  .white {
+    background-color: white;
+  }
+
+  .center-align {
+    text-align: center;
+  }
+
+  .left-align {
+    text-align: left;
+  }
+
+  .right-align {
+    text-align: right;
+  }
+
+  .top-align {
+    vertical-align: top;
+  }
+
+  .bottom-align {
+    vertical-align: bottom;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td class="yellow-05" style="width: 10%; text-align: left;">A1</td>
+    <td class="white center-align" style="width: 40%; height: 40px; vertical-align: bottom;">A2</td>
+    <td class="orange-05 center-align top-align" style="width: 50%;">A3</td>
+    <td class="orange-05 center-align top-align" rowspan="2" style="width: 50%;">A4</td>
+  </tr>
+  <tr>
+    <td class="yellow-05" rowspan="2" style="text-align: left;">B1</td>
+    <td class="orange-05 center-align" style="height: 50px;">B2</td>
+    <td class="orange-05 center-align" rowspan="2">B3</td>
+  </tr>
+  <tr>
+    <td class="white center-align" style="width: 30%;">B4</td>
+  </tr>
+  <tr>
+    <td class="orange-05 right-align">C1</td>
+    <td class="orange-05" colspan="2">C2</td>
+    <td class="white center-align">C4</td>
+  </tr>
+</table>
+
+</body>
+</html>

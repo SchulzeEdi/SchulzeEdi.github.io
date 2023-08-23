@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <style>
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulário de Login</h2>
+    <table>
+        <tr>
+            <th>Usuário</th>
+            <td><input type="text" name="username"></td>
+            <th>Senha</th>
+            <td><input type="password" name="password"></td>
+            <td colspan="2" style="text-align: center;">
+              <input type="submit" value="Enviar">
+          </td>
+        </tr>
+        <tr>
+            <td colspan="5" style="text-align: center;">
+                <label>
+                    <input type="checkbox" name="remember"> Lembrar usuário e senha
+                </label>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
